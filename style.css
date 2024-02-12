@@ -1,0 +1,174 @@
+html, body {
+    background-image: radial-gradient(circle, #ffffff, #faf9ff, #f4f2ff, #efecff, #eae5ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+        box-sizing: border-box;
+    padding-bottom: 50px; /* Adjust this value based on your design */
+}
+
+/* Styles pour chaque section de titre */
+.titre {
+    text-align: center; /* Centrer le texte */
+    font-size: 2em; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    margin-top: 20px; /* Marge supérieure */
+    margin-bottom: 20px; /* Marge inférieure */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajuster l'espacement entre les sections */
+}
+
+.liens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajuster l'espacement entre les sections */
+}
+
+.liens nav ul {
+    list-style: none; /* Supprimer les puces de la liste */
+    padding: 0;
+    margin: 0;
+}
+
+.liens nav ul li {
+    display: inline; /* Afficher les éléments de la liste en ligne */
+}
+
+.liens nav ul li a {
+background: linear-gradient(to right,#196BCA ,#14a2bb);
+ background-color: #196BCA;
+ color: #fff;
+ font-family: Trebuchet MS;
+ font-size: 19px;
+ font-weight: 800;
+ font-style: normal;
+ text-decoration: none;
+ padding: 11px 15px;
+ border: 2px solid #000;
+ border-radius: 9px;
+ display: inline-block;
+ box-shadow: 0px 0px 6px 0px #2D2D2D;
+}
+a.my-button:hover{
+ background: linear-gradient(to right,#5482d0 ,#53aec3);
+ background-color: #5482d0;
+}
+a.my-button:active{
+ transform: scale(0.95);
+}
+
+
+.liens nav ul li a:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+.titles-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+
+    border-width: 6px;
+    border-style: solid;
+    border-color: lightslategray;
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px; /* Ajoute de l'espace entre les sections */
+    display: flex;
+    flex-direction: column; /* Afficher le contenu en lignes */
+
+}
+.titles-section img {
+    max-width: 100%; /* L'image ne dépassera pas la largeur du conteneur */
+    height: auto; /* Laisser la hauteur ajustée automatiquement pour conserver les proportions */
+}
+
+.titles-section p {
+    flex-grow: 1; /* Faites en sorte que le paragraphe remplisse l'espace disponible */
+}
+
+/* Styles pour les liens */
+.titles-section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.titles-section a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les parties spécifiques "Métier", "Poursuite", "Qualités" */
+.titles-section h4 {
+    
+}
+
+.titles-section h5 {
+
+}
+
+.titles-section h6 {
+
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: cyan;
+}
+
+.common-title {
+    font-size: 20px; /* Vous pouvez ajuster la taille selon vos besoins */
+}
+
+.wrapper {
+    margin-bottom: 100px;
+}
+
+.spacer {
+    height: 100px;
+}
+
+
+
+.footer {
+    height: 100px; /* Hauteur du pied de page */
+    width: 100%; /* Largeur du pied de page */
+    background-color: #f2f2f2; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    position: fixed; /* Utiliser une position fixe pour coller le footer au bas de la fenêtre du navigateur */
+    bottom: 0; /* Aligner le footer en bas */
+    left: 0;
+    right: 0;
+    text-align: center; /* Alignement du texte au centre */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la taille totale */
+    
+}
+
+.footer img {
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
+
